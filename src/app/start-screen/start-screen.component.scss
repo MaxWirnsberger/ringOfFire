@@ -1,0 +1,35 @@
+.start-screen {
+  background-image: url("./../../assets/start_screen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+
+  > h1 {
+    color: white;
+    font-size: 180px;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+
+  > button {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: rgb(206, 28, 28);
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-top: 350px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(167, 49, 49);
+    }
+  }
+}
